@@ -88,6 +88,15 @@
             <p class="page-subtitle text-center mb-5">
                 Interfaz clara y confiable, inspirada en la identidad visual del sector financiero.
             </p>
+            <!-- Zona de resultados -->
+                <div id="resultados" class="mt-5" style="display: none;">
+                     <div class="card border-success finance-card results-card">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0">Respuestas seleccionadas</h5>
+                </div>
+        <div class="card-body" id="contenidoResultados"></div>
+    </div>
+</div>
             <div class="card finance-card">
     <div class="card-body p-4">
         <form id="formularioBootstrap">
